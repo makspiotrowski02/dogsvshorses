@@ -20,23 +20,19 @@ Data collected for this project is *not clean*. It was downloaded from google im
 
 First, clone this repository: 
 
-<!-- start:code block -->
+
 ### 1. Clone this repository
-git clone https://github.com/makspiotrowski02/dogsvshorses.git
-cd dogsvshorses
+    git clone https://github.com/makspiotrowski02/dogsvshorses.git
+    cd dogsvshorses
 
 ### 2. Create and activate virtual environment
-python -m venv *env_name*
-*env_name*\Scripts\activate 
+    python -m venv *env_name*
+    *env_name*\Scripts\activate 
 
 ### 3. Install libraries
-pip install tensorflow opencv-python Pillow matplotlib numpy keras
+    pip install tensorflow opencv-python Pillow matplotlib numpy keras
 
 ### 4. Create data folder
-mkdir data
+    mkdir data
 
 ### 5. Manually unzip dogs and horses and move them to data folder
-
-
-
-<!-- end:code block -->
